@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*.local
+client/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+coverage/
+.tmp/
+.temp/
+*.tsbuildinfo
+
+# React client build
+client/build/
+
+# Caches
+.cache/
+**/.cache/
+.eslintcache
+
+# Misc
+*.local
+*.log.*
+
+# Environment variables
+.env
